@@ -135,7 +135,6 @@ img {
   background-color: #2e2f42;
   padding: 188px 0 188px;
 }
-
 .main-heading {
   color: #ffffff;
   text-align: center;
@@ -415,4 +414,33 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style-type: none;
+}
+.icons-social-footer {
+  fill: #f4f4fd;
+}
+.social-icon-li-footer {
+  width: 40px;
+  height: 40px;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon-href-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon-href-footer:hover,
+.social-icon-href-footer:focus {
+  background-color: #31d0aa;;
 }
